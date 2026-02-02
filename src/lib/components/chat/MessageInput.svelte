@@ -133,6 +133,8 @@
 	let selectedValvesItemId = null;
 	let integrationsMenuCloseOnOutsideClick = true;
 
+	let currentEncryptedPassword = null;
+
 	$: if (!showValvesModal) {
 		integrationsMenuCloseOnOutsideClick = true;
 	}
